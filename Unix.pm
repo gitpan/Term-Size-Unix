@@ -11,7 +11,7 @@ use Exporter ();
 @ISA = qw(Exporter DynaLoader);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.203';
+$VERSION = '0.204';
 
 =head1 NAME
 

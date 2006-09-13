@@ -2,6 +2,7 @@
 use 5;
 use ExtUtils::MakeMaker;
 
+my $EUMM_VERSION = eval $ExtUtils::MakeMaker::VERSION;
 my $is_win32 = ($^O =~ /MSWin/i);
 
 WriteMakefile(
@@ -13,7 +14,9 @@ WriteMakefile(
 	($] >= 5.005 ? (
 		'ABSTRACT_FROM' => 'Unix.pm',
 	) : ()),
-	#LICENSE => 'perl', # needs EEUU > 6.30_01
+        ($EUMM_VERSION >= 6.30_01 ? (
+	        LICENSE => 'perl', # needs EEUU > 6.30_01
+        ) : ()),
 
 ) unless $is_win32;
 

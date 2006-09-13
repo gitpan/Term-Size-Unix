@@ -1,5 +1,8 @@
 Revision history for Perl extension Term::Size::Unix.
 
+0.204 2006-09-13
+        - included license in Makefile.PL
+
 0.203 2006-05-21
 	- moved sources from Term-Size to this distribution
 	- bug fixed: &pixels always used fd 0 rather than fileno(f)
