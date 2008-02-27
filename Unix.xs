@@ -18,7 +18,7 @@ extern "C" {
 
 MODULE = Term::Size::Unix		PACKAGE = Term::Size::Unix
 
-PROTOTYPES: ENABLE
+PROTOTYPES: DISABLE
 
 void
 chars( f = stdin )

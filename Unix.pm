@@ -11,11 +11,11 @@ use Exporter ();
 @ISA = qw(Exporter DynaLoader);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.204';
+$VERSION = '0.205';
 
 =head1 NAME
 
-Term::Size::Unix - Perl extension for retrieving terminal size (Unix version)
+Term::Size::Unix - Retrieve terminal size (Unix version)
 
 =head1 SYNOPSIS
 

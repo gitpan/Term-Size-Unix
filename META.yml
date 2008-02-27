@@ -1,13 +1,13 @@
 --- #YAML:1.0
 name:                Term-Size-Unix
-version:             0.204
-abstract:            Perl extension for retrieving terminal size (Unix version)
+version:             0.205
+abstract:            Retrieve terminal size (Unix version)
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.30_04
 author:              ~
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Test::More:                    0
 meta-spec:
-    url: http://module-build.sourceforge.net/META-spec-new.html
-    version: 1.1
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
